@@ -1,0 +1,4 @@
+<Files "notify-email-list.txt">
+Order Allow,Deny
+Deny from all
+</Files>
