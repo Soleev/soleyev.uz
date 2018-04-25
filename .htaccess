@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+<Files "notify-email-list.txt">
+Order Allow,Deny
+Deny from all
+</Files>
