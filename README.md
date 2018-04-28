@@ -1,1 +1,0 @@
-# soleyev.uz
